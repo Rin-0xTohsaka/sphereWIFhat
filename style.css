@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.image-comparison-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  height: 600px;
+  overflow: hidden;
+}
+
+.image-back, .image-front {
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.image-back {
+  background-image: url('wif_hat.jpg');
+}
+
+.image-front {
+  background-image: url('wif_no_hat.jpg');
+}
+
+.progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bar {
+  position: absolute;
+  left: 0; 
+  height: 100%;
+  background-color: #4CAF50; 
+  width: 0%; 
+  z-index: 1;
+}
+
+.progress-text {
+  z-index: 2; 
+  color: black; 
+  font-weight: bold; 
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
