@@ -1,6 +1,8 @@
 # sphereWIFhat
 
-Simple tool to visually track the progress of the dog wif hat fundraising campaign. 
+Simple tool to visually track the progress of the dog wif hat fundraising campaign.
+
+![Sphere Wif Hat Progress Tracker](tracker.gif)
 
 ## Project Setup
 1. Clone the repository to your local machine.
